@@ -9,7 +9,7 @@
     		<img src="https://prototypes.lib.ucdavis.edu/images/label-this-blog-title-image.svg" alt="Label This Project title image"/>
     		<!-- img class="small-title" src="../../images/label-this-title-image-sm.svg" alt=""-->
     	</section>
-      <section class="blog-river small-12 medium-7 medium-offset-1 large-4 large-offset-3 columns">
+      <section class="blog-river small-12 medium-7 medium-offset-1 columns">
       	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       		  <div class="blog-post-item blog-post-item-featured">
       		    <h4><?php posted_on(); ?></h4>
@@ -32,7 +32,7 @@
 
         <?php endif; ?>
       </section>
-      <section class="blog-sidebar small-12 medium-3 large-2 columns">
+      <section class="blog-sidebar small-12 medium-3 columns">
         <?php get_sidebar(); ?>
       </section>
 
