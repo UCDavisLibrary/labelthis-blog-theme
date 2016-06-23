@@ -60,7 +60,7 @@
 			These are for traditional favicons and Android home screens.
 			 - sizes: 1024x1024
 			 - transparency is OK
-			 - see wikipedia for info on browser support: http://mky.be/favicon/
+			 - see wikipedia for info on browser support: https://mky.be/favicon/
 			 - See Google Developer docs for Android options. https://developers.google.com/chrome/mobile/docs/installtohomescreen
 		*/
 		if (true == of_get_option('head_favicon')) {
@@ -117,7 +117,7 @@
 		}
 	?>
 
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php wp_head(); ?>
@@ -126,7 +126,7 @@
 
 <body>
 
-	<!-- not needed? up to you: http://camendesign.com/code/developpeurs_sans_frontieres -->
+	<!-- not needed? up to you: https://camendesign.com/code/developpeurs_sans_frontieres -->
 	<nav id="large-menu" class="top-bar">
 			<div class="top-bar-left">
 				<ul class="menu">
@@ -139,18 +139,18 @@
 					<li class="menu-item">
 						<a href="https://labelthis.lib.ucdavis.edu/transcribe">Transcribe</a>
 					</li>
-					<li class="menu-item-large">
+					<!--li class="menu-item-large">
 						<a href="#FIXME">Search</a>
-					</li>
+					</li-->
 				</ul>
 			</div>
 			<div class="top-bar-right">
 				<ul class="menu">
 					<li class="menu-item-large">
-						<a href="#FIXME">About the Project</a>
+						<a href="https://labelthisblog.library.ucdavis.edu/about-the-project/">About the Project</a>
 					</li>
 					<li class="menu-item-large">
-						<a target="_self" href="http://localhost:8888">Blog</a>
+						<a target="_self" href="https://labelthisblog.library.ucdavis.edu/">Blog</a>
 					</li>
 					<li class="menu-item-small">
 						<a href="#small-menu">...</a>

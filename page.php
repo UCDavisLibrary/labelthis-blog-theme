@@ -6,13 +6,12 @@
  */
  get_header(); ?>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			
+	<article class="blog-post small-12 medium-8 medium-offset-2 large-6 large-offset-3 columns">
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
 		<article class="post" id="post-<?php the_ID(); ?>">
 
 			<h2><?php the_title(); ?></h2>
-
-			<?php posted_on(); ?>
 
 			<div class="entry">
 
@@ -25,11 +24,17 @@
 			<?php edit_post_link(__('Edit this entry','html5reset'), '<p>', '</p>'); ?>
 
 		</article>
-		
-		<?php comments_template(); ?>
+
 
 		<?php endwhile; endif; ?>
+  </article>
+  <div class="row">
+  <section class="article-footer blog-sidebar small-12 medium-8 medium-offset-2 large-6 large-offset-3 columns">
 
 <?php get_sidebar(); ?>
+
+</section>
+</div>
+</section> <!-- blog row -->
 
 <?php get_footer(); ?>

@@ -25,12 +25,13 @@
       		  </div>
 
       	<?php endwhile; ?>
-        <?php post_navigation(); ?>
         <?php else : ?>
 
           <h2><?php _e('Nothing Found','html5reset'); ?></h2>
 
         <?php endif; ?>
+        <?php post_navigation(); ?>
+
       </section>
       <section class="blog-sidebar small-12 medium-3 columns">
         <?php get_sidebar(); ?>

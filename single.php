@@ -6,7 +6,7 @@
  */
  get_header(); ?>
  <section class="blog-post-header small-12 columns">
-   <a target="_self" href="http://localhost:8888"><img src="https://prototypes.lib.ucdavis.edu/images/label-this-blog-title-image.svg" alt="Label This Project title image"/></a>
+   <a target="_self" href="https://labelthisblog.library.ucdavis.edu/"><img src="https://prototypes.lib.ucdavis.edu/images/label-this-blog-title-image.svg" alt="Label This Project title image"/></a>
    <!-- img class="small-title" src="../../images/label-this-title-image-sm.svg" alt=""-->
  </section>
  <article class="blog-post small-12 medium-8 medium-offset-2 large-6 large-offset-3 columns">
@@ -31,18 +31,16 @@
   			</div>
 
   			<?php edit_post_link(__('Admins: Edit this entry'),'','.'); ?>
+        <?php post_navigation(); ?>
 
   		</section>
 
   	<?php endwhile; endif; ?>
 
-  <?php post_navigation(); ?>
 </article>
-<div class="row">
 <section class="article-footer blog-sidebar small-12 medium-8 medium-offset-2 large-6 large-offset-3 columns">
 <?php get_sidebar(); ?>
 </section>
-</div>
 </section> <!-- blog row -->
 
 

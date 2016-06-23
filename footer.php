@@ -14,26 +14,26 @@
 		<div class="secondary-menu">
 			<ul class="menu">
 				<li class="menu-item">
-					<a target="_blank" href="https://labelthis.lib.ucdavis.edu/users/sign_in">Admin login</a>
+					<a target="_blank" href="https://labelthisblog.library.ucdavis.edu/wp-admin">Blog Admin</a>
 				</li>
 				<li class="menu-item">
-					<a href="#FIXME">Questions or Comments?</a>
+					<a href="mailto:labelthis@ucdavis.edu">Questions or Comments?</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 	<section class="row align-center donor-links">
-		<div><img src="https://labelthis.lib.ucdavis.edu/images/uc-lib-logo-label-this.svg"></a></div>
+		<div><img src="https://labelthis.lib.ucdavis.edu/images/uc-lib-logo-label-this.svg"></div>
 		<small>This site was built for the <a href="https://www.lib.ucdavis.edu/dept/specol/">Special Collections Department</a> at the <a href="https://www.lib.ucdavis.edu">UC Davis Library</a>.<br/>
  					Help us make this and other projects possible—<a href="https://give.ucdavis.edu/ulib/">support the Library.</a></small>
 	</section>
 	<section class="row align-center ucd-links">
 		<small class="legal"><a href="https://www.ucdavis.edu">University of California, Davis</a>, One Shields Avenue, Davis, CA 95616 | 530-752-1011<br/>
-			&copy;<?php echo date("Y"); ?> The Regents of the <a href="http://www.universityofcalifornia.edu/">University of California</a>, Davis campus. All rights reserved.</small>
+			&copy;<?php echo date("Y"); ?> The Regents of the <a href="https://www.universityofcalifornia.edu/">University of California</a>, Davis campus. All rights reserved.</small>
 	</section>
 	<section class="row align-spaced legal-links">
 		<div><small class="legal"><a href="https://www.ucdavis.edu/privacy-and-accessibility">Privacy & Accessibility</a></small></div>
-		<div><small class="legal"><a href="http://occr.ucdavis.edu/poc/">Principles of Community</a></small></div>
+		<div><small class="legal"><a href="https://occr.ucdavis.edu/poc/">Principles of Community</a></small></div>
 	</section>
 </footer>
 <nav id="small-menu">
@@ -50,17 +50,17 @@
 		<li class="sm-menu-item">
 			<a href="https://labelthis.lib.ucdavis.edu/transcribe">Transcribe</a>
 		</li>
-		<li class="sm-menu-item">
+		<!--li class="sm-menu-item">
 			<a href="#FIXME">Search</a>
+		</li-->
+		<li class="sm-menu-item">
+			<a href="https://labelthis.lib.ucdavis.edu/about-the-project/">About the Project</a>
 		</li>
 		<li class="sm-menu-item">
-			<a href="https://labelthis.lib.ucdavis.edu/#">About the Project</a>
+			<a target="_blank" href="https://labelthisblog.library.ucdavis.edu/">Blog</a>
 		</li>
 		<li class="sm-menu-item">
-			<a target="_blank" href="#FIXME">Blog</a>
-		</li>
-		<li class="sm-menu-item">
-			<a target="_blank" href="#FIXME">Questions or Comments?</a>
+			<a target="_blank" href="mailto:labelthis@ucdavis.edu">Questions or Comments?</a>
 		</li>
 		<li class="sm-menu-item">
 			<a target="_blank" href="https://labelthis.lib.ucdavis.edu/users/sign_in">Admin login</a>
