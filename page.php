@@ -29,11 +29,7 @@
 		<?php endwhile; endif; ?>
   </article>
   <div class="row">
-  <section class="article-footer blog-sidebar small-12 medium-8 medium-offset-2 large-6 large-offset-3 columns">
-
-<?php get_sidebar(); ?>
-
-</section>
+  
 </div>
 </section> <!-- blog row -->
 

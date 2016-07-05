@@ -38,7 +38,7 @@
   	<?php endwhile; endif; ?>
 
 </article>
-<section class="article-footer blog-sidebar small-12 medium-8 medium-offset-2 large-6 large-offset-3 columns">
+<section class="blog-sidebar small-12 medium-8 medium-offset-2 large-6 large-offset-3 columns">
 <?php get_sidebar(); ?>
 </section>
 </section> <!-- blog row -->
