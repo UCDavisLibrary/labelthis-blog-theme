@@ -17,7 +17,7 @@
 					<a target="_blank" href="https://labelthisblog.library.ucdavis.edu/wp-admin">Blog Admin</a>
 				</li>
 				<li class="menu-item">
-					<a href="mailto:labelthis@ucdavis.edu">Questions or Comments?</a>
+					<a href="mailto:lib-labelthis@ou.ad3.ucdavis.edu">Questions or Comments?</a>
 				</li>
 			</ul>
 		</div>
@@ -60,7 +60,7 @@
 			<a target="_blank" href="https://labelthisblog.library.ucdavis.edu/">Blog</a>
 		</li>
 		<li class="sm-menu-item">
-			<a target="_blank" href="mailto:labelthis@ucdavis.edu">Questions or Comments?</a>
+			<a target="_blank" href="mailto:lib-labelthis@ou.ad3.ucdavis.edu">Questions or Comments?</a>
 		</li>
 		<li class="sm-menu-item">
 			<a target="_blank" href="https://labelthis.lib.ucdavis.edu/users/sign_in">Admin login</a>
